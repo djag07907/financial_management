@@ -4,8 +4,59 @@
 .dart_tool/
 .packages
 build/
-# If you're building an application, you may want to check-in your pubspec.lock
+
+.fvm/flutter_sdk
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+
+# Ignore test-related files
+/coverage.data
+/coverage/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/*
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
 pubspec.lock
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+android/app/Obfuscation/
+
+# Exceptions to above rules.
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+!.dart_tool/flutter_gen/
+
+# Android generated files
+android/hce.properties
+android/app/release/
+android/app/debug/
+android/app/profile/
 
 # Directory created by dartdoc
 # If you don't generate documentation locally you can remove this line.
